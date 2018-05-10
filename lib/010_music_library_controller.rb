@@ -37,8 +37,8 @@ class MusicLibraryController
     count = 0
     until count == 4
 
-    user_inptut =  gets
-      if user_inptut == "exit"
+    user_input =  gets
+      if user_input == "exit"
         count = 4
       else
         count +=1
