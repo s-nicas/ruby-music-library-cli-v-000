@@ -34,8 +34,8 @@ class MusicLibraryController
     end
 
 
-    count = 1
-    until count >= 4
+    count = 2
+    until count == 4
 
     user_inptut =  gets
       if user_inptut == "exit"
