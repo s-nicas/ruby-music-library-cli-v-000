@@ -34,7 +34,7 @@ class MusicLibraryController
     end
 
 
-    count = 0
+    count = 1
     until count >= 4
 
     user_inptut =  gets
